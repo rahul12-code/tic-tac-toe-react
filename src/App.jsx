@@ -1,9 +1,12 @@
 import React from 'react'
+import TicTacToe from './components/TicTacToe'
+import Header from './components/Header'
 
 const App = () => {
   return (
-    <div className='text-[100px] text-red-800 italic'>
-      TIC TAC TOE REACT
+    <div>
+      <Header />
+      <TicTacToe />
     </div>
   )
 }
